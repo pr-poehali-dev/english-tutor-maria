@@ -26,7 +26,7 @@ const PricingSection = () => {
         "Практические ситуации",
         "Специальная лексика",
         "Культурные особенности",
-        "Подготовка документов",
+        "Постановка произношения",
       ],
       popular: true,
     },
@@ -62,11 +62,7 @@ const PricingSection = () => {
           {pricingPlans.map((plan, index) => (
             <Card
               key={index}
-              className={`relative transition-all hover:scale-105 hover:shadow-lg ${
-                plan.popular
-                  ? "border-2 border-pastel-accent shadow-lg"
-                  : "border border-gray-200"
-              }`}
+              className={`relative transition-all hover:scale-105 hover:shadow-lg border border-gray-200`}
             >
               {plan.popular && (
                 <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">

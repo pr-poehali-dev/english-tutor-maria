@@ -57,12 +57,11 @@ const AboutSection = () => {
               </div>
               <div>
                 <h3 className="font-montserrat font-semibold text-xl text-text-primary mb-2">
-                  Индивидуальный подход
+                  Создаю уроки сама и/или использую топ-учебники
                 </h3>
                 <p className="text-text-secondary leading-relaxed">
-                  Каждый урок создаётся с учётом ваших целей, интересов и
-                  уровня. Использую аутентичные материалы: фильмы, сериалы,
-                  статьи, песни.
+                  Каждый урок создаётся с учётом ваших целей и уровня. Использую
+                  аутентичные материалы: фильмы, сериалы, статьи, песни.
                 </p>
               </div>
             </div>
@@ -89,12 +88,12 @@ const AboutSection = () => {
                   <span>Американский английский</span>
                 </div>
                 <div className="flex items-center gap-3 text-white">
-                  <Icon name="Users" size={20} />
-                  <span>Коммуникативная методика</span>
+                  <Icon name="Heart" size={20} />
+                  <span>Friendly atmosphere</span>
                 </div>
                 <div className="flex items-center gap-3 text-white">
-                  <Icon name="BookOpen" size={20} />
-                  <span>Авторские и топовые учебники</span>
+                  <Icon name="MessageSquare" size={20} />
+                  <span>Говори на английском каждый урок</span>
                 </div>
               </div>
             </div>

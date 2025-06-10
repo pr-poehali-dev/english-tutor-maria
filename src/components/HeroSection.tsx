@@ -7,14 +7,16 @@ const HeroSection = () => {
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl font-montserrat font-bold text-text-primary mb-6 leading-tight">
-            Мария
+            Hi there, Marie is here
           </h1>
           <div className="text-xl md:text-2xl text-text-secondary font-medium mb-4">
-            Репетитор английского языка
+            преподаватель по английскому языку
           </div>
           <div className="inline-flex items-center gap-2 bg-pastel-accent/30 px-4 py-2 rounded-full">
-            <Icon name="Star" size={20} className="text-yellow-500" />
-            <span className="text-text-primary font-medium">8+ лет опыта</span>
+            <Icon name="Users" size={20} className="text-green-500" />
+            <span className="text-text-primary font-medium">
+              для взрослых с уровнем А2 и выше
+            </span>
           </div>
         </div>
 
