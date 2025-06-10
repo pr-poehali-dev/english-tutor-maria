@@ -32,16 +32,18 @@ const ContactSection = () => {
                   первый урок
                 </p>
 
-                <Button
-                  size="lg"
-                  className="bg-white text-pastel-accent hover:bg-white/90 px-8 py-4 rounded-xl font-semibold text-lg transition-all hover:scale-105"
-                  onClick={() => window.open("https://t.me/mvriedon", "_blank")}
-                >
-                  <Icon name="Send" size={20} className="mr-3" />
-                  Написать в Telegram
-                </Button>
+                <div className="bg-white/20 rounded-xl p-6 mb-4">
+                  <div className="text-3xl font-bold text-black mb-2">
+                    Пробный урок — 1000 ₽
+                  </div>
+                  <div className="text-black/70">
+                    Познакомимся, определим ваш уровень и составим план обучения
+                  </div>
+                </div>
 
-                <p className="text-black/60 text-sm mt-4">@mvriedon</p>
+                <p className="text-black text-2xl font-semibold">
+                  @marie_english_tutor
+                </p>
               </div>
             </div>
           </CardContent>
