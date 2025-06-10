@@ -7,10 +7,10 @@ const ContactSection = () => {
     <section className="py-20 px-4 bg-gradient-to-br from-soft-purple via-soft-blue to-soft-gray">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-6">
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-black mb-6">
             Готовы начать обучение?
           </h2>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
+          <p className="text-xl text-black/80 max-w-3xl mx-auto">
             Запишитесь на первый урок и начните говорить на английском уже
             сегодня
           </p>
@@ -24,10 +24,10 @@ const ContactSection = () => {
               </div>
 
               <div className="text-center">
-                <h3 className="font-montserrat font-bold text-2xl text-white mb-2">
+                <h3 className="font-montserrat font-bold text-2xl text-black mb-2">
                   Свяжитесь со мной в Telegram
                 </h3>
-                <p className="text-white/80 mb-6">
+                <p className="text-black/70 mb-6">
                   Обсудим ваши цели, подберём подходящую программу и назначим
                   первый урок
                 </p>
@@ -41,27 +41,31 @@ const ContactSection = () => {
                   Написать в Telegram
                 </Button>
 
-                <p className="text-white/70 text-sm mt-4">@mvriedon</p>
+                <p className="text-black/60 text-sm mt-4">@mvriedon</p>
               </div>
             </div>
           </CardContent>
         </Card>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <div className="text-white/80">
-            <Icon name="Clock" size={24} className="mx-auto mb-2" />
+          <div className="text-black/80">
+            <Icon name="Clock" size={24} className="mx-auto mb-2 text-black" />
             <div className="font-semibold mb-1">Быстрый ответ</div>
             <div className="text-sm">Отвечаю в течение нескольких часов</div>
           </div>
 
-          <div className="text-white/80">
-            <Icon name="Calendar" size={24} className="mx-auto mb-2" />
+          <div className="text-black/80">
+            <Icon
+              name="Calendar"
+              size={24}
+              className="mx-auto mb-2 text-black"
+            />
             <div className="font-semibold mb-1">Гибкое расписание</div>
             <div className="text-sm">Подберём удобное время для уроков</div>
           </div>
 
-          <div className="text-white/80">
-            <Icon name="Heart" size={24} className="mx-auto mb-2" />
+          <div className="text-black/80">
+            <Icon name="Heart" size={24} className="mx-auto mb-2 text-black" />
             <div className="font-semibold mb-1">Индивидуальный подход</div>
             <div className="text-sm">
               Программа создаётся специально для вас
