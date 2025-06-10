@@ -20,7 +20,7 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto mb-8">
           <div className="text-center p-4">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-soft-purple rounded-full mb-3">
               <Icon
@@ -59,6 +59,14 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
+
+        <Button
+          size="lg"
+          className="bg-gradient-to-r from-purple-600 to-pink-500 hover:from-purple-700 hover:to-pink-600 text-white font-semibold px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all"
+        >
+          <Icon name="MessageCircle" size={20} className="mr-2" />
+          Написать в Telegram
+        </Button>
       </div>
     </section>
   );

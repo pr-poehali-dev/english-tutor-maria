@@ -45,9 +45,8 @@ const AboutSection = () => {
                   Международный опыт
                 </h3>
                 <p className="text-text-secondary leading-relaxed">
-                  Проживание в США по программе Work & Travel, обучение в Европе
-                  по программе Erasmus, ex-преподаватель английского в Донском
-                  Гос. Тех. Университете. Изучение языка в естественной среде.
+                  Проживание в США, обучение в Европе по программе Erasmus.
+                  Изучение языка в естественной среде и общение с носителями.
                 </p>
               </div>
             </div>
@@ -58,10 +57,11 @@ const AboutSection = () => {
               </div>
               <div>
                 <h3 className="font-montserrat font-semibold text-xl text-text-primary mb-2">
-                  Создаю уроки сама и/или использую топ-учебники
+                  Индивидуальный подход
                 </h3>
-                <p className="text-sm text-text-secondary">
-                  Коммуникативный и лексический подходы
+                <p className="text-text-secondary leading-relaxed">
+                  Каждая программа создаётся с учётом ваших целей, интересов и
+                  темпа обучения. Никаких шаблонных решений.
                 </p>
               </div>
             </div>
@@ -79,21 +79,21 @@ const AboutSection = () => {
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-center gap-3 text-black">
+                <div className="flex items-center gap-3 text-white">
                   <Icon name="Award" size={20} />
                   <span>8+ лет опыта преподавания</span>
                 </div>
-                <div className="flex items-center gap-3 text-black">
+                <div className="flex items-center gap-3 text-white">
                   <Icon name="Globe" size={20} />
                   <span>Американский английский</span>
                 </div>
-                <div className="flex items-center gap-3 text-black">
+                <div className="flex items-center gap-3 text-white">
                   <Icon name="Heart" size={20} />
-                  <span>Friendly atmosphere</span>
+                  <span>Дружелюбная атмосфера</span>
                 </div>
-                <div className="flex items-center gap-3 text-black">
+                <div className="flex items-center gap-3 text-white">
                   <Icon name="MessageSquare" size={20} />
-                  <span>Говори на английском каждый урок</span>
+                  <span>Много разговорной практики</span>
                 </div>
               </div>
             </div>

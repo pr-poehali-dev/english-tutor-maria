@@ -7,12 +7,12 @@ const ContactSection = () => {
     <section className="py-20 px-4 bg-gradient-to-br from-soft-purple via-soft-blue to-soft-gray">
       <div className="max-w-4xl mx-auto text-center">
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-black mb-6">
+          <h2 className="text-4xl md:text-5xl font-montserrat font-bold text-white mb-6">
             Готовы начать обучение?
           </h2>
-          <p className="text-xl text-black/80 max-w-3xl mx-auto">
-            Запишитесь на первый урок и начните говорить на английском уже
-            сегодня
+          <p className="text-xl text-white/90 max-w-3xl mx-auto">
+            Свяжитесь со мной в Telegram и начните свой путь к свободному
+            владению английским языком
           </p>
         </div>
 
@@ -24,50 +24,41 @@ const ContactSection = () => {
               </div>
 
               <div className="text-center">
-                <h3 className="font-montserrat font-bold text-2xl text-black mb-2">
+                <h3 className="font-montserrat font-bold text-2xl text-white mb-2">
                   Свяжитесь со мной в Telegram
                 </h3>
-                <p className="text-black/70 mb-6">
-                  Обсудим ваши цели, подберём подходящую программу и назначим
-                  первый урок
+                <p className="text-white/80 mb-6">
+                  Обсудим ваши цели, подберём подходящую программу и договоримся
+                  о расписании
                 </p>
 
-                <div className="bg-white/20 rounded-xl p-6 mb-4">
-                  <div className="text-3xl font-bold text-black mb-2">
-                    Пробный урок — 1000 ₽
-                  </div>
-                  <div className="text-black/70">
-                    Познакомимся, определим ваш уровень и составим план обучения
-                  </div>
-                </div>
-
-                <p className="text-black text-2xl font-semibold">
+                <Button
+                  size="lg"
+                  className="bg-white text-purple-600 hover:bg-white/90 font-semibold px-8 py-4 rounded-full"
+                >
+                  <Icon name="Send" size={20} className="mr-2" />
                   @marie_english_tutor
-                </p>
+                </Button>
               </div>
             </div>
           </CardContent>
         </Card>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
-          <div className="text-black/80">
-            <Icon name="Clock" size={24} className="mx-auto mb-2 text-black" />
+          <div className="text-white/90">
+            <Icon name="Clock" size={24} className="mx-auto mb-2" />
             <div className="font-semibold mb-1">Быстрый ответ</div>
             <div className="text-sm">Отвечаю в течение нескольких часов</div>
           </div>
 
-          <div className="text-black/80">
-            <Icon
-              name="Calendar"
-              size={24}
-              className="mx-auto mb-2 text-black"
-            />
+          <div className="text-white/90">
+            <Icon name="Calendar" size={24} className="mx-auto mb-2" />
             <div className="font-semibold mb-1">Гибкое расписание</div>
             <div className="text-sm">Подберём удобное время для уроков</div>
           </div>
 
-          <div className="text-black/80">
-            <Icon name="Heart" size={24} className="mx-auto mb-2 text-black" />
+          <div className="text-white/90">
+            <Icon name="Heart" size={24} className="mx-auto mb-2" />
             <div className="font-semibold mb-1">Индивидуальный подход</div>
             <div className="text-sm">
               Программа создаётся специально для вас
