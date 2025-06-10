@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-soft-gray via-white to-soft-blue px-4">
       <div className="max-w-4xl mx-auto text-center animate-fade-in">
         <div className="mb-8">
-          <h1 className="text-5xl md:text-7xl font-montserrat font-bold italic text-text-primary mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-montserrat font-bold italic bg-gradient-to-r from-purple-600 via-pink-500 to-blue-600 bg-clip-text text-transparent mb-6 leading-tight">
             Hi there, Marie is here
           </h1>
           <div className="text-xl md:text-2xl text-text-secondary font-medium mb-4">

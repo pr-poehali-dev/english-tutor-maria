@@ -46,9 +46,8 @@ const AboutSection = () => {
                 </h3>
                 <p className="text-text-secondary leading-relaxed">
                   Проживание в США по программе Work & Travel, обучение в Европе
-                  по программе Erasmus, ex-преподаватель английский в Донском
-                  Гос. Тех. Университете, sales-manager в одной крупной
-                  канадской фирме. Изучение языка в естественной среде.
+                  по программе Erasmus, ex-преподаватель английского в Донском
+                  Гос. Тех. Университете. Изучение языка в естественной среде.
                 </p>
               </div>
             </div>
@@ -61,7 +60,7 @@ const AboutSection = () => {
                 <h3 className="font-montserrat font-semibold text-xl text-text-primary mb-2">
                   Создаю уроки сама и/или использую топ-учебники
                 </h3>
-                <p className="text-text-secondary leading-relaxed">
+                <p className="text-sm text-text-secondary">
                   Коммуникативный и лексический подходы
                 </p>
               </div>
