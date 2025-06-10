@@ -79,19 +79,19 @@ const AboutSection = () => {
               </div>
 
               <div className="space-y-4">
-                <div className="flex items-center gap-3 text-white">
+                <div className="flex items-center gap-3 text-black">
                   <Icon name="Award" size={20} />
                   <span>8+ лет опыта преподавания</span>
                 </div>
-                <div className="flex items-center gap-3 text-white">
+                <div className="flex items-center gap-3 text-black">
                   <Icon name="Globe" size={20} />
                   <span>Американский английский</span>
                 </div>
-                <div className="flex items-center gap-3 text-white">
+                <div className="flex items-center gap-3 text-black">
                   <Icon name="Heart" size={20} />
                   <span>Friendly atmosphere</span>
                 </div>
-                <div className="flex items-center gap-3 text-white">
+                <div className="flex items-center gap-3 text-black">
                   <Icon name="MessageSquare" size={20} />
                   <span>Говори на английском каждый урок</span>
                 </div>

@@ -28,7 +28,7 @@ const PricingSection = () => {
         "Культурные особенности",
         "Постановка произношения",
       ],
-      popular: true,
+      popular: false,
     },
     {
       title: "Бизнес-английский",
@@ -64,14 +64,6 @@ const PricingSection = () => {
               key={index}
               className={`relative transition-all hover:scale-105 hover:shadow-lg border border-gray-200`}
             >
-              {plan.popular && (
-                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-pastel-accent text-white px-4 py-1 rounded-full text-sm font-medium">
-                    Популярный
-                  </span>
-                </div>
-              )}
-
               <CardHeader className="text-center pb-4">
                 <CardTitle className="font-montserrat text-xl text-text-primary mb-2">
                   {plan.title}
@@ -104,18 +96,6 @@ const PricingSection = () => {
                     </li>
                   ))}
                 </ul>
-
-                <Button
-                  className={`w-full ${
-                    plan.popular
-                      ? "bg-pastel-accent hover:bg-pastel-accent/80 text-white"
-                      : "bg-white border border-pastel-accent text-pastel-accent hover:bg-pastel-accent hover:text-white"
-                  } transition-all`}
-                  onClick={() => window.open("https://t.me/mvriedon", "_blank")}
-                >
-                  <Icon name="MessageCircle" size={16} className="mr-2" />
-                  Записаться
-                </Button>
               </CardContent>
             </Card>
           ))}

@@ -20,29 +20,6 @@ const HeroSection = () => {
           </div>
         </div>
 
-        <p className="text-lg md:text-xl text-text-secondary max-w-2xl mx-auto mb-8 leading-relaxed">
-          Помогаю освоить английский с помощью коммуникативной методики,
-          аутентичных материалов и индивидуального подхода
-        </p>
-
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <Button
-            size="lg"
-            className="bg-pastel-accent hover:bg-pastel-accent/80 text-white px-8 py-3 rounded-xl font-medium transition-all hover:scale-105"
-            onClick={() => window.open("https://t.me/mvriedon", "_blank")}
-          >
-            <Icon name="MessageCircle" size={20} className="mr-2" />
-            Записаться на урок
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-2 border-pastel-accent text-pastel-accent hover:bg-pastel-accent hover:text-white px-8 py-3 rounded-xl font-medium transition-all"
-          >
-            Узнать подробнее
-          </Button>
-        </div>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto">
           <div className="text-center p-4">
             <div className="inline-flex items-center justify-center w-12 h-12 bg-soft-purple rounded-full mb-3">
@@ -78,7 +55,7 @@ const HeroSection = () => {
               Методика
             </h3>
             <p className="text-sm text-text-secondary">
-              Коммуникативный подход
+              Коммуникативный подход, лексический подход и геймификация
             </p>
           </div>
         </div>
